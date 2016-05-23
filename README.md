@@ -15,14 +15,14 @@ vim-go-ide-use-vundle
     echo "export PATH=$PATH:/usr/local/git/bin" >> /etc/bashrc
     source /etc/bashrc
 
-git --version
-git version 2.2.1
+    git --version
+    git version 2.2.1
 
 # 如何git升级失败,需要手动拉取
-vim ./github.com/alecthomas/gometalinter/main.go
-gopkg.in/alecthomas/kingpin.v2 报异常，需要使用github镜像
-
-gotool
+    vim ./github.com/alecthomas/gometalinter/main.go
+    gopkg.in/alecthomas/kingpin.v2 报异常，需要使用github镜像
+    
+    gotool
 
 # Origin
 https://github.com/fatih/vim-go
