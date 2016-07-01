@@ -16,6 +16,7 @@ Plugin 'Shougo/neosnippet'
 Plugin 'fatih/molokai'
 Plugin 'garyburd/go-explorer'
 Plugin 'scrooloose/nerdtree'
+Plugin 'Shougo/neosnippet-snippets'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -90,7 +91,7 @@ nmap <F8> :TagbarToggle<CR>
 
 "Note: This option must set it in .vimrc(_vimrc).  NOT IN .gvimrc(_gvimrc)!
 "" Disable AutoComplPop.
-let g:acp_enableAtStartup = 0
+let g:acp_enableAtStartup = 1
 " Use neocomplete.
 let g:neocomplete#enable_at_startup = 1
 " Use smartcase.
