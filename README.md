@@ -26,3 +26,6 @@ vim-go-ide-use-vundle
 
 # Origin
 https://github.com/fatih/vim-go
+
+#科学上网
+http://note.youdao.com/yws/public/redirect/share?id=ed0c1cc97d086fa49e2a7e93ec1cd957&type=false
