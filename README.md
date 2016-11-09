@@ -28,4 +28,8 @@ vim-go-ide-use-vundle
 https://github.com/fatih/vim-go
 
 #科学上网
-http://note.youdao.com/yws/public/redirect/share?id=ed0c1cc97d086fa49e2a7e93ec1cd957&type=false
+    go get github.com/golang/tools
+    在GOPATH\src\github.com目录下就有tools文件夹。
+    在src下和github.com平级新建golang.org文件下，在此文件夹下建x文件夹，然后将tools都复制进去。
+    然后再执行go get github.com/tools/godep。
+    此时godep安装在你的GOPATH\bin目录下
