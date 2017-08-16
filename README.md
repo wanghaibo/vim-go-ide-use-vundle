@@ -7,6 +7,9 @@ vim-go-ide-use-vundle
 3. :PluginInstall
 5. GoInstallBinaries
 
+# require
+./configure --prefix=/data/vim74 --with-features=huge --with-luajit --enable-luainterp=yes --enable-fail-if-missing
+
 # Origin
 https://github.com/fatih/vim-go
 
