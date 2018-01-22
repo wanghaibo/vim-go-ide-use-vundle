@@ -8,7 +8,8 @@ vim-go-ide-use-vundle
 5. GoInstallBinaries
 
 # require
-./configure --prefix=/data/vim74 --with-features=huge --with-luajit --enable-luainterp=yes --enable-fail-if-missing
+1.pip3 install neovim
+2../configure --prefix=/data/vim74 --with-features=huge --with-luajit --enable-luainterp=yes --enable-fail-if-missing --enable-python3interp
 
 # Origin
 https://github.com/fatih/vim-go
