@@ -10,7 +10,7 @@ vim-go-ide-use-vundle
 # require
 0. vim8 with python3
 1. pip3 install neovim
-2. ./configure --prefix=/data/vim74 --with-features=huge --with-luajit --enable-luainterp=yes --enable-fail-if-missing --enable-python3interp
+2. ./configure --prefix=/data/vim8 --with-features=huge --with-luajit --enable-luainterp=yes --enable-fail-if-missing --enable-python3interp
 
 # Origin
 https://github.com/fatih/vim-go
