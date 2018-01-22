@@ -18,11 +18,13 @@ Plugin 'Shougo/deoplete.nvim'
 Plugin 'roxma/nvim-yarp'
 Plugin 'roxma/vim-hug-neovim-rpc'
 Plugin 'zchee/deoplete-go', { 'do': 'make'}
+Plugin 'ervandew/supertab'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+let g:SuperTabDefaultCompletionType = "<c-n>"
 
 set hlsearch                  "高亮度反白
 set backspace=2               "可随时用倒退键删除
