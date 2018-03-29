@@ -1,6 +1,9 @@
 # vim-go-ide-use-vundle
 vim-go-ide-use-vundle
 
+# usage
+docker run -ti -v $('pwd'):/go/src/ wanghaibo/vim sh
+
 # step
 1. git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 2. copy vimrc

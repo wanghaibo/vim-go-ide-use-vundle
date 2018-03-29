@@ -89,7 +89,7 @@ let g:go_fmt_command = "goimports"
 " NERDTree快捷键定义
 map <F10> :NERDTreeToggle<CR>
 " " Tagbar 快捷键
-nmap <F8> :TagbarToggle<CR>
+nmap <F9> :TagbarToggle<CR>
 
 
 let g:deoplete#enable_at_startup = 1
@@ -108,3 +108,6 @@ let g:deoplete#enable_at_startup = 1
 " deoplete-go settings
 let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
 let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
+if filereadable('/root/.vim/bundle/molokai/README.md')
+    colorscheme molokai
+endif
