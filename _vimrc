@@ -54,7 +54,6 @@ set clipboard+=unnamed
 
 set guifont=Consolas:h12
 set t_Co=256
-colorscheme molokai
 set guioptions-=m
 set guioptions-=T
 
