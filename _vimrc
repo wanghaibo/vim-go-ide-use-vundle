@@ -111,3 +111,7 @@ let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const
 if filereadable('/root/.vim/bundle/molokai/README.md')
     colorscheme molokai
 endif
+
+set statusline+=%#goStatuslineColor#
+set statusline+=%{go#statusline#Show()}
+set statusline+=%*
